@@ -21,7 +21,7 @@ services:
       timeout: 5s
       retries: 5
     volumes:
-      - /Users/danielmestas/Concourse/azure-devops-scaper-api/historical_data.db:/metabase_db/historical_data.db
+      - /Users/danielmestas/Concourse/azure-devops-scaper-api/ado_data.db:/metabase_db/ado_data.db
   postgres:
     image: postgres:latest
     container_name: postgres

@@ -31,7 +31,7 @@ wit_client = connection.clients.get_work_item_tracking_client()
 
 # --------------------------------------------
 # Set up SQLite database and create tables.
-DB_FILE = "historical_data.db"
+DB_FILE = "ado_data.db"
 conn = sqlite3.connect(DB_FILE)
 cursor = conn.cursor()
 

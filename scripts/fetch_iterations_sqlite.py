@@ -27,7 +27,7 @@ connection_ado = Connection(base_url=organization_url, creds=credentials)
 wit_client = connection_ado.clients.get_work_item_tracking_client()
 
 # SQLite Database file path
-DB_FILE = "historical_data.db"
+DB_FILE = "ado_data.db"
 conn = sqlite3.connect(DB_FILE)
 cursor = conn.cursor()
 

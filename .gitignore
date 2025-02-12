@@ -171,5 +171,5 @@ cython_debug/
 .pypirc
 
 # Ensures .env and virtual environments aren't committed
-historical_data.db
+ado_data.db
 historical_data.duckdb

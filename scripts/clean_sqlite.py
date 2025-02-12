@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Path to your SQLite database file
-DB_FILE = "historical_data.db"
+DB_FILE = "ado_data.db"
 
 def clean_database(db_file):
     connection = sqlite3.connect(db_file)
